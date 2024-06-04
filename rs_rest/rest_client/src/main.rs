@@ -8,18 +8,18 @@ use std::error::Error;
 #[derive(Debug, Serialize, Deserialize)]
 struct TickerData {
     ticker: String,
-    sentiment_rating: i32,
-    timestamp: i64,
-    positive: Option<String>,
-    neutral: Option<String>,
-    negative: Option<String>,
-    total: Option<String>,
-    next_earnings_date: Option<String>,
-    market_cap: Option<u64>,
-    options_oi_call_ratio: Option<String>,
-    #[serde(rename = "30_day_avg_iv")] // Rename to match JSON field
-    day_avg_iv: Option<f64>,
-    unusual_option_volume: Option<String>,
+    //sentiment_rating: i32,
+    // timestamp: i64,
+    // positive: Option<String>,
+    // neutral: Option<String>,
+    // negative: Option<String>,
+    // total: Option<String>,
+    // next_earnings_date: Option<String>,
+    // market_cap: Option<u64>,
+    // options_oi_call_ratio: Option<String>,
+    // #[serde(rename = "30_day_avg_iv")] // Rename to match JSON field
+    // day_avg_iv: Option<f64>,
+    // unusual_option_volume: Option<String>,
 }
 
 fn main() -> Result<(), Box<dyn Error>> {

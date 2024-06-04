@@ -9,18 +9,18 @@ import (
 
 // Struct to represent the data model
 type StockData struct {
-	Ticker              string  `json:"ticker"`
-	SentimentRating     int     `json:"sentiment_rating"`
-	Timestamp           int64   `json:"timestamp"`
-	Positive            string  `json:"positive"`
-	Neutral             string  `json:"neutral"`
-	Negative            string  `json:"negative"`
-	Total               string  `json:"total"`
-	NextEarningsDate    string  `json:"next_earnings_date"`
-	MarketCap           int64   `json:"market_cap"`
-	OptionsOICallRatio  string  `json:"options_oi_call_ratio"`
-	ThirtyDayAvgIV      float64 `json:"30_day_avg_iv"`
-	UnusualOptionVolume string  `json:"unusual_option_volume"`
+	Ticker string `json:"ticker"`
+	//SentimentRating     int     `json:"sentiment_rating"`
+	// Timestamp           int64   `json:"timestamp"`
+	// Positive            string  `json:"positive"`
+	// Neutral             string  `json:"neutral"`
+	// Negative            string  `json:"negative"`
+	// Total               string  `json:"total"`
+	// NextEarningsDate    string  `json:"next_earnings_date"`
+	// MarketCap           int64   `json:"market_cap"`
+	// OptionsOICallRatio  string  `json:"options_oi_call_ratio"`
+	// ThirtyDayAvgIV      float64 `json:"30_day_avg_iv"`
+	// UnusualOptionVolume string  `json:"unusual_option_volume"`
 }
 
 func main() {
